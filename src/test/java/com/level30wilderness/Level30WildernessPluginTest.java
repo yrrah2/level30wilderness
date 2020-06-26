@@ -1,13 +1,13 @@
-package com.example;
+package com.level30wilderness;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class Level30WildernessPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(Level30WildernessPlugin.class);
 		RuneLite.main(args);
 	}
 }
